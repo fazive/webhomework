@@ -2,7 +2,7 @@
 * @Author: Lenovo
 * @Date:   2019-06-14 10:31:37
 * @Last Modified by:   Lenovo
-* @Last Modified time: 2019-06-18 17:29:24
+* @Last Modified time: 2019-06-21 20:15:01
 */
 *{
 	margin: 0;
@@ -34,15 +34,26 @@ li{
 	height: 120px;
 	text-align: center;
 }
-.sousuo input{
+.top a{
+	color: #050505;
+}
+ .sousuo input{
 	width: 540px;
 	height: 45px;
 	margin-left: 177px;
+	margin-top: -10px;
 	text-align: center;
 	color: #ededed;
+	background: url(imgs/search.png) no-repeat 80%;
+	background-position: right;
 }
 .search{
-	margin-top: 20px;
+	width: 60px;
+	height: 45px;
+	display: inline-block;
+	border: 1px solid #2e2e2e;
+	margin-left: 0px;
+	
 }
 .cart{
 	margin-left: 150px;
@@ -111,17 +122,20 @@ li{
 } 
 .select li{
 	display: inline-block;
+	line-height: 
 
 }
 .select a{
 	margin-left: 90px;
 	text-align: center;
+	color: black;
 }
 .a{
 	width: 100px;
 	height: 45px;
 	background-color: #e5e5e5;
 	text-align: center;
+	line-height: 45px;
 }
 .select :hover{
 	color: green;
